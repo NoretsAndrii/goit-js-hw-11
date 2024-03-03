@@ -14,6 +14,47 @@
 .form-input {
   width: 272px;
 }
+.form-input {
+  display: inline-block;
+  width: 272px;
+  border: 1px solid rgb(128, 128, 128);
+  border-radius: 4px;
+  padding: 8px 16px;
+  outline: 0px solid transparent;
+  transition: border liner 250ms;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #808080;
+}
+
+.form-input:hover {
+  border: 1px solid rgb(0, 0, 0);
+}
+
+.form-input:focus-within {
+  border: 1px solid rgb(78, 117, 255);
+}
+
+.form-btn {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  border-radius: 8px;
+  padding: 8px 16px;
+  border: 0px solid transparent;
+  color: #fff;
+  background-color: #4e75ff;
+  transition: background-color linear 250ms;
+}
+
+.form-btn:hover {
+  background-color: #6c8cff;
+}
 
 .gallary {
   width: 1128px;
